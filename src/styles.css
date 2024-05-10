@@ -19,6 +19,19 @@ body {
 .container {
   max-width: 1200px;
   margin:  0 auto;
+  @media (max-width: 1024px) {
+    max-width: 944px;
+  }
+  @media (max-width: 720px) {
+    max-width: 640px;
+  }
+  @media (max-width: 480px) {
+    max-width: 480px;
+    padding: 0 10px;
+  }
+  @media (max-width: 375px) {
+    max-width: 375px;
+  }
 }
 .button {
   border-radius: 8px;
@@ -35,6 +48,11 @@ body {
   outline: none;
   color: #191411;
   font-size: 18px;
+  
+    @media (max-width: 1124px) {
+      margin: 0 auto;
+    }
+    /* width: 130px; */
 }
 .button:hover {
   background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
@@ -51,4 +69,15 @@ body {
   line-height: 80px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  @media (max-width: 768px) {
+    font-size: 44px;
+  }
+  @media (max-width: 480px) {
+    font-size: 34px;
+  }
+}
+.right-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

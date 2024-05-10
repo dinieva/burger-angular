@@ -1,3 +1,8 @@
+# ВНИМАНИЕ
+
+В данном проекте две ветки. 
+Для отображения сайта на хостинге gh pages пришлось подправить после сборки проекта пути в папке docs в файле index.html. В script и в style добавлены /burger-angular/
+
 # AngularNew
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
